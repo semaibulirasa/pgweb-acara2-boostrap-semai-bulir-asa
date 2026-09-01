@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ACARA 2 | Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        main {
+            margin-top: 70px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary shadow fixed-top" data-bs-theme="light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Banyuwangi</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                <i class="bi bi-houses-fill"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#deskripsi">
+                                <i class="bi bi-chat-right-text"></i> Deskripsi
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bataswilayah">
+                                <i class="bi bi-geo-alt-fill"></i> Batas Wilayah
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pariwisata">
+                                <i class="bi bi-truck-front-fill"></i> Pariwisata
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sumber">
+                                <i class="bi bi-link-45deg"></i> Sumber
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <i class="bi bi-images"></i> Assets
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#profileModal">
+                                <i class="bi bi-person-circle"></i> Profile
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- Bagian ini merupakan bagian titile menggunakan alerts -->
+        <div class="alert alert-info shadow text-center" role="alert">
+            <h2>
+                Banyuwangi
+            </h2>
+            <h6>
+                Kecamatan Kalipuro
+            </h6>
+        </div>
+
+        <!-- Deskripsi -->
+        <div class="card shadow" id="deskripsi">
+            <div class="card-header">
+                <h5>
+                    <i class="bi bi-chat-right-text"></i> Deskripsi
+                </h5>
+            </div>
+            <div class="card-body">
+                <h6>
+                    Kalipuro adalah salah satu kecamatan di Kabupaten Banyuwangi. Kalipuro dimekarkan dari Kecamatan
+                    Giri pada tahun 1995.
+                </h6>
+
+                <h6>
+                    Kalipuro adalah daerah penyangga dari ibu kota Banyuwangi yang terletak tepat
+                    di utara kota tersebut. Kecamatan ini dilintasi Jalur Pantura dan memiliki pelabuhan besar bernama
+                    Pelabuhan Ketapang yang menjadi moda transportasi penting untuk menghubungkan Pulau Jawa dengan
+                    Bali. Di sekitar pelabuhan tersebut terdapat Stasiun Ketapang, Terminal Sritanjung, Pangkalan TNI AL
+                    (Lanal) Banyuwangi, hingga berbagai industri besar. Selain itu, sepanjang pesisir timur Kalipuro
+                    terdapat obyek wisata pantai yang indah seperti Watu Dodol dan Cacalan, serta terdapat banyak hotel
+                    mewah dan rumah makan.
+                </h6>
+
+                <h6>
+                    Kalipuro adalah kecamatan yang terletak di bagian utara Kabupaten Banyuwangi. Wilayahnya memanjang
+                    dari kawasan Pantai Watudodol di utara hingga perbatasan ibu kota Banyuwangi di selatan. Pusat
+                    keramaian Kalipuro berada di timur kecamatan dekat pesisir yang terdapat Pelabuhan Ketapang dan
+                    berbatasan dengan Kota Banyuwangi. Namun, sebagian besar wilayah Kalipuro memiliki geografi berupa
+                    perbukitan terutama di kawasan Bukit Watu Dodol dan bagian barat Kalipuro di lereng Ijen.
+                </h6>
+            </div>
+        </div>
+
+        <!-- Batas Wilayah -->
+        <div class="card shadow mt-4" id="bataswilayah">
+            <div class="card-header">
+                <h5>
+                    <i class="bi bi-geo-alt-fill"></i> Batas Wilayah
+                </h5>
+            </div>
+            <div class="card-body">
+                <!-- Tabel -->
+                <table class="table table-striped">
+                    <tr>
+                        <!-- Bagian ini merupakan Table Heading yang mana akan tampak lebih tebal setiap hurufnya -->
+                        <th>No.</th>
+                        <th>Nama Kelurahan</th>
+                        <th>Nama Lingkungan dan Kampung</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Bulusan</td>
+                        <td>Krajan, Kampung Baru</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Gombengsari</td>
+                        <td>Gombeng, Kacangan Asri, Kaliklatak, Lerek, Losan, Petak 1, Petak 5, Petak 6, Sebani, Suko,
+                            Sumber
+                            Pakem, Sumberwaru</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Kalipuro</td>
+                        <td>Krajan, Antogan, Brak, Kalipuro Asri, Papring, Secang, Secang Mangir, Secang Timur,
+                            Sumbernanas,
+                            Tirtopuro, Wangkal, Warung Kopat</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Klatak</td>
+                        <td>Klatakan, Sukowidi, Tanjung</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Pariwisata -->
+        <div class="card shadow mt-4" id="pariwisata">
+            <div class="card-header">
+                <h5>
+                    <i class="bi bi-truck-front-fill"></i> Pariwisata
+                </h5>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>Bukit dan Pantai Watu Dodol</li>
+                    <li>Pantai Cacalan</li>
+                    <li>Pantai Dermaga Cinta</li>
+                    <li>Sumber mata air Penawar</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Sumber -->
+        <div class="card shadow mt-4" id="sumber">
+            <div class="card-header">
+                <h5>
+                    <i class="bi bi-link-45deg"></i> Sumber
+                </h5>
+            </div>
+            <div class="card-body">
+                Place To Go Banyuwangi <a href="https://youtu.be/GA9uFZ3KBqM?si=156QQs_ElkZ15cCn" target="_blank"
+                    rel="noopener noreferrer">Link Youtube</a>
+
+                <h5>Youtuber Said?</h5>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/h4jSA8i9UUA?si=MxdwNAUJEPcCpLVa"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            </div>
+        </div>
+
+        <!-- Assets -->
+        <div class="card shadow mt-4" id="assets">
+            <div class="card-header">
+                <h5>
+                    <i class="bi bi-images"></i> Assets
+                </h5>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Ketapang_Ferry_Port%2C_East_Java%2C_20220821_1054_9794.jpg?utm_source=id.wikipedia.org&utm_campaign=index&utm_content=original"
+                    width="500">
+                <br>
+                <img src="Assets/3b14855c-05e3-4a74-b305-472a6db2908e.avif" width="500">
+            </div>
+        </div>
+        </div>
+        </div>
+
+    </main>
+
+    <!-- Modal -->
+    <div class="modal fade" id="profileModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="profileModalLabel">Profile Praktikan</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- Menggunakan rumus table>tr>td*3 -->
+                    <table>
+                        <tr>
+                            <td>Nama</td>
+                            <td>:</td>
+                            <td>Semai Bulir Asa</td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td>:</td>
+                            <td>25/566352/SV/27066</td>
+                        </tr>
+                        <tr>
+                            <td>Kelas</td>
+                            <td>:</td>
+                            <td>PGWeb A</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
